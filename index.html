@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content ="CS 61A: Structure and Interpretation of Computer Programs" />
+    <meta name="keywords" content ="Computer Science, Programming, Berkeley, EECS" />
+    <meta name="author" content ="John DeNero, Jedi Tsang (Guest Lecturer), Shm Almeda (GSI)" />
+    <!-- CHANGED CAREFUL -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-throttle-debounce/1.1/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/assets/js/hl.js"></script>
+    <script src="/assets/js/toggledarkmode.js"></script>
+    <script>
+        // we aren't registering builtins since
+        //      (1) they don't render differently in the current CSS from other names
+        //      (2) it's a mess to list all of them. You can extract from the site but that takes effort
+        // if (1) ceases to be true, (2) might be worth the effort. For now, we're leaving as is
+        hljsRegister({
+            'keyword': "define if cond and or let begin lambda mu quote delay cons-stream set! quasiquote unquote unquote-splicing define-macro"
+        });
+        hljs.initHighlightingOnLoad();
+    </script>
+    <script src="/assets/js/dark-mode.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto:300,400,500|Work+Sans:400,700">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/mono-blue.css">
+    <link rel="icon" href="/assets/images/favicon.ico">
+
+    
+
+    <title>
+Department/Campus Resources | CS 61A Spring 2025
+</title>
+  </head>
+
+  <body id="index" class="home">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container noselect">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-section" aria-label="Toggle Navigation Bar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">
+            CS 61A
+            <!-- <img style="max-width:60px; margin-top: -20px;" class="logo" src="/assets/images/logo.png"/> -->
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-collapse-section">
+          <ul class="nav navbar-nav navbar-right">
+
+            
+            <li><a href="/">Lectures</a></li>
+            
+            <li><a href="/articles/about-61a/">Syllabus</a></li>
+            
+            <li><a href="https://edstem.org/us/courses/63971/discussion/">Ed</a></li>
+            
+            <li><a href="/office-hours/">Office Hours</a></li>
+            
+            <li><a href="/articles/contact-61a/">Contact</a></li>
+            
+
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Links
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                <li><a href="https://go.cs61a.org/61a-extensions">Request an Extension</a></li>
+                
+                <li><a href="https://go.cs61a.org/61a-regrades">Request a Regrade</a></li>
+                
+                <li><a href="https://oh.cs61a.org/">Office Hours Queue</a></li>
+                
+                <li><a href="https://www.gradescope.com/courses/843175">Gradescope</a></li>
+                
+                <li><a href="https://bcourses.berkeley.edu/courses/1538118/pages">Lecture Recordings</a></li>
+                
+                <li><a href="https://pythontutor.com/cp/composingprograms.html">Python Tutor</a></li>
+                
+                <li><a href="https://code.cs61a.org/scheme/">Scheme Editor</a></li>
+                
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resources
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                <li><a href="/resources/">Past Exams & Websites</a></li>
+                
+                <li><a href="https://www.composingprograms.com">Textbook</a></li>
+                
+                <li><a href="https://drive.google.com/file/d/1O72u0ml65pibcjz-PXKpqeJDKaVqQ3D8/view">Debugging Guide</a></li>
+                
+                <li><a href="/articles/studying/">Studying Guide</a></li>
+                
+                <li><a href="/articles/composition/">Composition Guide</a></li>
+                
+                <li><a href="/articles/campus-res/">Campus Resources</a></li>
+                
+                <li><a href="/articles/advice/">Advice from Students</a></li>
+                
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Staff
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                <li><a href="/instructor">Instructors</a></li>
+                
+                <li><a href="/staff">TAs & Tutors</a></li>
+                
+                <li><a href="/academic-interns">Academic Interns</a></li>
+                
+              </ul>
+            </li>
+            
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="content" class="container">
+      
+<div class='row'>
+  <div class='col-md-9'>
+    <header>
+      <h1>Being an Ethical Engineer/Student</h1>
+    </header>
+     <p><strong>Written by Brian Leong</strong></p>
+
+<p>
+    If you haven't heard this yet, welcome to UC Berkeley! CS61A is one of the first 
+courses that students take when entering the field of Computer Science. But whether you plan on pursuing 
+Computer Science as a career or are simply interested in Computer Science, we want to inform you 
+of some important ethical considerations you should take. Note that while this is framed from the 
+perspective of preparing oncoming engineers and computer scientists, you may still find this 
+relevant for your future prospects. 
+</p>
+
+<p>This list is not complete and is subject to change and be updated.
+If you find there are additions to be made, feel free to email cs61a@berkeley.edu
+or myself at bleong314@berkeley.edu!
+</p>
+
+<h2 id="why">Why are We Mentioning This?</h2>
+<p>
+    Whether it be during your time here in CS61A or some time later in life, we recognize
+    that you will be presented with many opportunities to contribute to emerging technologies.
+    Considering that we are an introductory class, we want to introduce you to the reality that
+    you will be facing decisions that impact people. While it might be easy to think that you
+    are just typing lines on a computer, many programs have the power to change the world for the better
+    or for the worse. Additionally, how you treat others in this course will also shape how you are perceived
+    by others both now and in the future.
+</p>
+
+<p>
+    At UC Berkeley, we emphasize the 
+    <a href = https://teaching.berkeley.edu/berkeley-honor-code> Honor Code</a>
+    because we believe that every student should treat others with kindness and respect. 
+    While you may be convinced that you only have to uphold such codes while you are here 
+    at UC Berkeley, the truth is that these ethical principles apply in the workforce and in 
+    any sort of occupation that you might be preparing for in the future. 
+</p>
+
+<p>
+    Your time here at UC Berkeley is very similar to what you'll experience in the workplace.
+    You'll be faced with deadlines, pressure to perform, and will be working with others. You
+    may be tempted on many occasions to take shortcuts, but we encourage you to avoid cheating. 
+    By cheating, you both undermine the efforts of other students, and hinder your own learning.
+    When you are in the workforce, you will be solving problems that no one has ever solved before!
+    So while you are here, you should prepare yourself by upholding academic honesty. 
+    By working on your ethical habits during your time here in CS61A, you'll be more than prepared for when
+    you enter the workforce. But more importantly, you'll work towards becoming a better person.
+</p>
+
+<h2 id="defining">Being Ethical Regarding your Own Work</h2>
+<p>
+  Here we mention some ethical considerations regarding your own work:
+</p>
+<ol type="1">
+  <li>
+    Academic Integrity: As a student as UC Berkeley, we want to prepare you to be your best
+    when you join the workforce. An important part of that preparation comes with academic integrity.
+    Part of the reason why we enforce academic integrity is because we want to ensure you get the most out of
+    the class. That means that behavior such as copying other students' code or asking an online forum
+    for answers is unacceptable, and is subject to academic penalties. If you ever find yourself tempted to cheat,
+    remind yourself that you risk not only those penalities, but are undermining your own development
+    in Computer Science!
+  </li>
+  <li>
+    The Use of Artificial Intelligence: Artificial Intelligence has become more and more prevalent
+    in both industry and student workflows. While it can be used to support your learning, it should 
+    not be used as a replacement. What makes a good and ethical Computer Scientist is one who can solve
+    problems on their own without simply pasting AI content for credit. After all, the people who are 
+    hiring are not looking for a prompt engineer, but rather someone who can solve problems!
+  </li>
+
+
+</ol>
+
+<h2 id="defining">Being Ethical When Working with Others</h2>
+<p>
+  Here we provide a few gudelines on how be ethical when working on a team:
+</p>
+<ol type="1">
+<li>
+  Never Condescend: The staff here at CS61A strongly believe that everyone is capable of learning.
+  People often excel in different areas, after all, that is why people major in different
+  subjects at college! But often you don't get to experience that gap until you work in a group or partner setting.
+  In this class, you will often have to work in a group, and it may be tempting to talk poorly about others
+  who are not doing as well on a subject or do not seem as focused as you are. However, it's important to recognize
+  that condescending doesn't benefit anyone. The next time you are tempted to talk poorly about someone, try 
+  framing it as constructive criticism, rather than an attack on one's character.
+</li>
+<li>
+  Share the Credit: Related to the previous point, take time to recognize the people who are working with you 
+  and what they are contributing. Often we only consider our own contributions rather than the contributions
+  of others. Even if it feels like you are the one who is doing all of the coding (which shouldn't be the case
+  if you are doing pair programming on course projects!), know that everyone learns at a different pace. So 
+  even if your partner or group may not be meeting your expectations, try to recognize when they are working hard. 
+<li>
+  Respect the Staff: You'll find that in many workplaces, you will often have superiors who are in charge of managing
+  you and your coworkers. Sometimes, you may not get along with your superiors, but that doesn't mean that you 
+  should insult or ignore them. Often there are a lot of things happening in the life of course staff members 
+  and by not treating them with respect, you discourage them from further contributing to Computer Science education.
+</li>
+</ol>
+
+<h2 id="defining">Being Ethical With What You Work On</h2>
+<p>
+  Here we provide a few guidelines on how be ethical when deciding who to work for or what to work on.
+</p>
+<ol type="1">
+<li>
+  Ensure you align with Employer Values: As a student as UC Berkeley, you will presented with many opportunities for places
+  to work, whether that be research or a job. However, one must recognize how a role's ethics lines up with their own. 
+  Sometimes it's easy to let big salary numbers entice individuals to take jobs, however, make sure to do your research
+  on who you are working for.
+</li>
+<li>
+  Always Test Your Code: Engineering is an ongoing process, and it’s critical to adopt the habit of consistently testing your work. 
+  In courses like CS61B, where tests are not predefined for you, you'll encounter a similar challenge in the real world. 
+  It’s your responsibility to ensure the accuracy and safety of your code, as it can have serious implications for others' lives.
+  An example of this is the case of 
+  <a href = https://en.wikipedia.org/wiki/Therac-25> Therac-25:</a>
+  A machine that was programmed to give radiation therapy to patients in need. However, due to a number of 
+  failures in programming the needed safety mechanisms, the machine ended up overdosing patients with 
+  radiation on multiple occasions, resulting in their deaths. 
+  It's important to keep this emphasis in mind early on in your career, as it may prevent critical accidents
+  from occurring. 
+</ol>
+
+<h2 id="reporting-an-incident">Speaking Up / Reporting an Incident</h2>
+
+<p>We recognize that disputes and conflicts can occur between students, staff,
+instructors, etc. There are many different types of incidents, including but not
+limited to discrimination, assault, conflict, etc... Nevertheless, we want to 
+encourage you to speak up if you notice anything suspicious. Thus, we provide many resources where you can anonymously
+report any negative experiences.</p>
+
+<ul>
+  <li>The EECS department provides
+  <a href="https://eecs.berkeley.edu/resources/students/grievances#eecs-climate">many ways</a>
+  to report issues within the department, including general incidents,
+  grievances with faculty, sexual harassment, and discrimination. Please report
+  any incidents to us or to the department using the
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc4NYHdUJ8IzYA1SoiTinWBybGWkj0mfmdnHAeygAxkZajelQ/viewform">department form</a>,
+  so that we can continue to improve the CS student experience.</li>
+  <li>The <a href="https://advocate.berkeley.edu">Student Advocate’s Office</a> (SAO) "is a
+  student-run organization that helps students litigate issues with professors."</li>
+  <li>The <a href="https://sa.berkeley.edu/Ombuds">Ombudsperson for Students</a> "can be your
+  first step, your last resort, or anything in between. The Ombudsperson will
+  listen to your concerns, serve as a sounding board, discuss your options with
+  you, and help you get a new perspective and determine the next steps to take."</li>
+  <li>Lastly, <a href="https://diversity.berkeley.edu/report-incident">many resources</a> of
+  support and ways to report issues are provided by the university as well.</li>
+</ul>
+
+
+<h2 id="why">Want to Learn More?</h2>
+<p>
+  If you are interested in learning more about ethics, or fine tuning your own personal ethical code, consider taking the following classes at UC Berkeley!
+</p>
+<ul>
+  <li>
+    <a href="https://classes.berkeley.edu/content/2024-spring-engin-125-001-lec-001">ENGIN-125</a>
+  (Ethics, Engineering, and Society):
+  Provides an introduction to how theories, concepts, and methods from the humanities and social science 
+  can be applied to ethical dilemmas you may face in engineering. You'll get the chance to discuss emerging 
+  engineering technologies with fellow students and reflect on your own ethical values.
+  </li>
+  <li>
+    <a href="https://www2.eecs.berkeley.edu/Courses/CS195/">CS-195</a>
+  (Social Implications of Computer Technology):
+  Dives into the ethical concerns of emerging computer technologies. Discusses ideas such as intellectual property,
+  data privacy, artificial intelligence, pornography and censorship, etc... The course also teaches about professional
+  ethics that will be vital for students entering the workforce.
+  </li>
+  <li>
+    <a href="https://classes.berkeley.edu/content/2024-fall-bioeng-100-001-lec-001">BIOE-100</a>
+  (Ethics in Science and Engineering):
+  Discusses issues of professional conduct in the practice of engineering, research, publication, public 
+  and private disclosures. Mentions various case studies and debates on a variety of ethical issues
+  </li>
+</ul>
